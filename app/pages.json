@@ -1,25 +1,17 @@
-[
+{
   "home": {
-    "title": "Samuele Mattiuzzo",
-    "python": "http://www.python.org",
-    "django": "http://www.djangoproject.com",
-    "linuxcounter": "http://linuxcounter.net/",
-    "projecteuler": "http://projecteuler.net",
-    "stackoverflow": "http://stackoverflow.com"
-
+    "title": "Samuele Mattiuzzo"
   },
 
   "who": {
-    "title": "All you'll get, won't blog",
-    "content": "This is the about page. Welcome"
+    "title": "All you'll get, won't blog"
   },
 
   "what": {
-    "title": "Shenanigans about this website",
-    "content": "This is the contact page. Welcome"
+    "title": "Shenanigans about this website"
   },
 
   "where": {
     "title": "Where can you find me on the net?"
   }
-]
+}
