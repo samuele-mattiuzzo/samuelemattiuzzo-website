@@ -31,7 +31,7 @@ body { background:#FFFFFF; font:12px "Century Gothic", arial, Helvetica, sans-se
 a{ text-decoration: none; color: #000; }
 a:hover{ text-decoration: underline; color: #ff9900; }
 
-h3 {font-family: Century Gothic, Arial; font-weight:lighter; font-size:35px;color:#ff9900; }
+h3 { font-weight:lighter; font-size:35px;color:#ff9900; }
 
 /* Navigation bar */
 ul.nav { width: 100%; height: 35px; margin: 15px 0 5px 0; border-top: 1px solid #666; border-bottom: 1px solid #666; }
@@ -46,7 +46,6 @@ ul.nav a.active { color: #ff9900; }
 
 /* Homepage big text */
 div.home {
-	font-family: Century Gothic, Arial, sans-serif; 
 	font-weight: lighter; 
 	font-size:24px; 
 	color: #333; 
@@ -59,7 +58,7 @@ div.home {
 
 /* About + skills */
 div.who {
-	font-family: Century Gothic, Arial, sans-serif; 
+	 
 	font-weight: lighter; 
 	font-size:24px; 
 	color: #333; 
@@ -74,17 +73,16 @@ div.who div.right {
 	margin-left: 15px;
 }
 
-div.who div.right #skills ul {margin: 0 0 0 100px;list-style:none;padding-top:30px; height: 300px;}
-div.who div.right #skills li {display:inline;margin:25px 40px 0 0;font-size:20px;font-family:"Century Gothic", arial, Helvetica;}
+div.who div.right #skills ul { margin: 0 0 0 100px; list-style:none; padding-top:30px; height: 300px; }
+div.who div.right #skills li { display:inline; margin:25px 40px 0 0; font-size:24px; }
 
 div.who div.left { float: left; width: 70%; }
-div.who div.left p { max-width: 50%; float: left; margin:0 50px 0 15px; padding-top: 15px; font-size: 20px; }
+div.who div.left p { max-width: 50%; float: left; margin:0 50px 0 15px; padding-top: 15px; font-size: 24px; }
 div.who div.left img { height: 350px; float: left; padding-top: 15px; }
 
 
 /* Some links + some portfolio */
 div.what {
-	font-family: Century Gothic, Arial, sans-serif; 
 	font-weight: lighter; 
 	font-size:20px; 
 	color: #333; 
@@ -95,7 +93,6 @@ div.what {
 
 /* Contacts */
 div.where {
-	font-family: Century Gothic, Arial, sans-serif; 
 	font-weight: lighter; 
 	font-size:20px; 
 	color: #333; 
@@ -129,7 +126,7 @@ h4 {
 	line-height: 50px; 
 }
 ul.credits { width: 100%; height: 30px; margin: 5px 0 5px 0; text-align: center; }
-ul.credits li { display: inline; margin:5px; font-size:15px; font-weight: normal; font-family:"Century Gothic", arial, Helvetica; width: 48%; } 
+ul.credits li { display: inline; margin:5px; font-size:15px; font-weight: normal; width: 48%; } 
 ul.credits a { color:#666; text-decoration:none; }
 ul.credits a:hover{ text-decoration: none; color: #ff9900; }
 ul.credits a.active { color: #ff9900; }
