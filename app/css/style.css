@@ -1,0 +1,135 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1; }
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+/* General ruling */
+@font-face {
+    font-family: fff-tusj;
+    src: url('../fonts/fff-tusj.ttf');
+    font-weight:400;
+}
+
+body { background:#FFFFFF; font:12px "Century Gothic", arial, Helvetica, sans-serif; color:#444; }
+.container { width: 100%; max-width: 1000px; margin: 15px auto; text-align: center; }
+
+a{ text-decoration: none; color: #000; }
+a:hover{ text-decoration: underline; color: #ff9900; }
+
+
+
+/* Navigation bar */
+ul.nav { width: 100%; height: 35px; margin: 15px 0 5px 0; border-top: 1px solid #666; border-bottom: 1px solid #666; }
+ul.nav li { float:left; display:inline; margin:5px; font-size:20px; font-weight: normal; font-family:"Century Gothic", arial, Helvetica; width: 23%; }
+ul.nav li.center-first { border-left: 1px solid #666; }
+ul.nav li.center-second { border-left: 1px solid #666; border-right: 1px solid #666; }
+ul.nav a { color:#666; text-decoration:none; }
+ul.nav a:hover{ text-decoration: none; color: #ff9900; }
+ul.nav a.active { color: #ff9900; }
+
+/* Contents */
+
+/* Homepage big text */
+div.home {
+	font-weight: lighter; 
+	font-size:24px; 
+	color: #333; 
+	margin: 35px 0 35px 0;
+	line-height: 50px; 
+	letter-spacing: 2px;
+	height: 300px;
+}
+
+
+/* About + skills */
+div.who { 
+	font-weight: lighter; 
+	font-size:24px; 
+	color: #333; 
+	margin: 35px 0 35px 0; 
+	height: 300px;
+}
+
+div.who div.right { float: left; width: 25%; border-left: 1px solid #666; margin-left: 15px; }
+div.who div.right h3 { font-weight:lighter; font-size:35px; color:#ff9900; }
+div.who div.right #skills ul { list-style:none; height: 300px; }
+div.who div.right #skills li { font-size:24px; }
+
+div.who div.left { float: left; width: 70%; }
+div.who div.left p { max-width: 50%; float: left; margin:0 10% 0 15px; font-size: 24px; }
+div.who div.left div.media { height: 350px; float: left; }
+
+
+/* Some links + some portfolio */
+div.what {
+	font-weight: lighter; 
+	font-size:24px; 
+	color: #333; 
+	margin: 35px 0 35px 0; 
+	line-height: 50px; 
+	letter-spacing: 2px;
+}
+
+/* My profiles and contact */
+div.where {
+	font-weight: lighter; 
+	font-size:20px; 
+	color: #333; 
+	margin: 35px 0 35px 0; 
+	line-height: 50px; 
+	letter-spacing: 2px;
+	height: 150px;
+}
+
+div.where div.where-left { width: 32%; margin: 5px; float: left; }
+div.where div.where-center { width: 33%; margin: 5px; float: left; }
+div.where div.where-right { width: 32%; margin: 5px; float: left; }
+
+li.github { list-style-type: none; background: url('../imgs/icon-github.gif') no-repeat top left; }
+li.gmail { list-style-type: none; background: url('../imgs/icon-gmail.png') no-repeat top left; }
+li.linkedin { list-style-type: none; background: url('../imgs/icon-linkedin.png') no-repeat top left; }
+li.twitter { list-style-type: none; background: url('../imgs/icon-twitter.png') no-repeat top left; }
+li.gplus { list-style-type: none; background: url('../imgs/icon-gplus.png') no-repeat top left; }
+li.stackoverflow { list-style-type: none; background: url('../imgs/icon-stackoverflow.png') no-repeat top left; }
+
+/* Credits */
+h4 {
+	
+    border-top: 1px solid #666;
+	font-family: fff-tusj;
+	color: #ff9900;
+	text-transform: uppercase;
+	font-weight: lighter; 
+	font-size:2.2em; 
+	margin: 25px 0 5px 0; 
+	line-height: 50px; 
+}
+ul.credits { width: 100%; height: 30px; margin: 5px 0 5px 0; text-align: center; }
+ul.credits li { display: inline; margin:5px; font-size:15px; font-weight: normal; width: 48%; } 
+ul.credits a { color:#666; text-decoration:none; }
+ul.credits a:hover{ text-decoration: none; color: #ff9900; }
+ul.credits a.active { color: #ff9900; }
+
+/* Overrides */
+a.brand {
+	font-family: fff-tusj;
+    font-size: 3.5em;
+    color: #ff9900;
+	text-transform: uppercase;
+}
+a.brand:hover { text-decoration: none; }
