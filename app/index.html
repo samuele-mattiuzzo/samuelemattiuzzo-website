@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Samuele Mattiuzzo's homepage</title>
-
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body ng-controller="AppController">
@@ -12,22 +11,23 @@
   <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
+
 		<!-- Homepage title -->
-        <a class="brand" href="/#/page/who">Samuele Mattiuzzo</a>
+        <a class="brand" href="#/home">Samuele Mattiuzzo</a>
 
 		<!-- Navigation menu -->
         <ul class="nav">
 		  <li ng-class="{active: slug == 'home'}">
-			<a href="/#/page/home">Home</a>
+			<a href="#/home">Home</a>
           </li>
           <li ng-class="{active: slug == 'who'}" class="center-first">
-			<a href="/#/page/who">Who</a>
+			<a href="#/who">Who</a>
 		  </li>
           <li ng-class="{active: slug == 'what'}" class="center-second">
-			<a href="/#/page/what">What</a>
+			<a href="#/what">What</a>
 		  </li>
           <li ng-class="{active: slug == 'where'}">
-			<a href="/#/page/where">Where</a>
+			<a href="#/where">Where</a>
 		  </li>
         </ul>
       </div>
@@ -38,92 +38,16 @@
   <div class="container">
     <div class="row">
       <div class="span8">
-
         <!-- Dynamic content -->
-        <ng-view>
-			<div class="home">
-				I'm Samuele. I'm Italian. I'm 28. <br>
-	I code in <a href="http://www.python.org">python</a> 
-	and <a href="http://www.djangoproject.com">django</a>. <br>
-	I'm the registered linux user <a href="http://linuxcounter.net/">#480806</a>.
-	I like playing with <a href="http://projecteuler.net">project euler</a> 
-	and contribute regularly to <a href="http://stackoverflow.com">stackoverflow</a>. <br>
-	I play the bass, I like and play basketball and I play a lot of videogames.
-			</div>
-			<div class="who">
-				<div class="left">
-				<p>
-				I'm a backend django/python developer, currently living in London.<br> 
-		I've been working for the last 3 years, in Milan, on <a href="http://www.tothego.com">Tothego</a>, a django-based vertical search engine, on top of the splendid <a href="http://lucene.apache.org/solr/">apache-solr</a>.<br> Now I work for <a href="http://p.ota.to">Potato</a> and enjoy developing awesome web apps with django (well, what else?) and <a href="https://developers.google.com/appengine/">Appengine</a> for clients such as Google.
-				</p>
-				<div class="media">
-				<img src="imgs/me.png" />
-				</div>
-				</div>
-				<div class="right">
-					<div id="skills">
-						<h3>SKILLS</h3>
-						<ul>
-							<li>PYTHON</li>
-							<li>DJANGO</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JAVASCRIPT</li>
-							<li>GIT</li>
-							<li>APPENGINE</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<br><br>
-			<div class="what">
-				This website was made with <br>
-				<a href="http://www.w3schools.com/html/html5_intro.asp"><img src="imgs/what-html5.png" /></a>
-				<a href="http://www.css3.info/"><img src="imgs/what-css3.png" /></a>
-				<a href="http://angularjs.org"><img src="imgs/what-angular.png" /></a>
-				<br>Font: <a href="http://www.dafont.com/fff-tusj.font">Tusj FFF</a>
-			</div>
-			<div class="where">
-				<div class="where-left">
-				<ul>
-					<li class="gmail">
-						<a href="mailto:samumatt@gmail.com">email</a>
-					</li>
-					<li class="linkedin">
-						<a href="http://www.linkedin.com/profile/view?id=114562359">linkedin</a>
-					</li>
-				</ul>				
-				</div>
-				<div class="where-center">
-				<ul>
-					<li class="github">
-						<a href="https://github.com/samuele-mattiuzzo">github</a>
-					</li>
-					<li class="stackoverflow">
-						<a href="http://stackoverflow.com/users/754484/samuele-mattiuzzo">stackoverflow</a>
-					</li>
-				</ul>
-				</div>
-				<div class="where-right">
-				<ul>
-					<li class="gplus">
-						<a href="https://plus.google.com/u/1/114709476089128368785/about">google+</a>
-					</li>
-					<li class="twitter">
-						<a href="https://twitter.com/smattiuz">twitter</a>
-					</li>
-				</ul>
-				</div>
-			</div>
-	
-		</ng-view>
-
+        <ng-view><div class="home">To viw this website, you need to have Javascript active on your browser (not IE, huh?) (:</div></ng-view>
       </div>
     </div>
   </div>
 
   <!-- JavaScript Includes -->
-  <script type="text/javascript" src="js/angularangular.min.js"></script>
+  <script type="text/javascript" src="js/angular/angular.min.js"></script>
+  <script type="text/javascript" src="js/angular/angular-loader.min.js"></script>
+  <script type="text/javascript" src="js/angular/angular-resource.min.js"></script>
   <script type="text/javascript" src="js/website.js"></script>
 
 </body>

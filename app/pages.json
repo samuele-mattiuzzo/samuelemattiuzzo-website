@@ -1,0 +1,25 @@
+[
+  "home": {
+    "title": "Samuele Mattiuzzo",
+    "python": "http://www.python.org",
+    "django": "http://www.djangoproject.com",
+    "linuxcounter": "http://linuxcounter.net/",
+    "projecteuler": "http://projecteuler.net",
+    "stackoverflow": "http://stackoverflow.com"
+
+  },
+
+  "who": {
+    "title": "All you'll get, won't blog",
+    "content": "This is the about page. Welcome"
+  },
+
+  "what": {
+    "title": "Shenanigans about this website",
+    "content": "This is the contact page. Welcome"
+  },
+
+  "where": {
+    "title": "Where can you find me on the net?"
+  }
+]
